@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+      
+    margin: 20px auto 0 auto; 
+}
+.container{
+    max-width: 1046px;
+    margin: auto;
+}
+.header {    
+    background-image: url('img/background.png');
+    height: 680px; 
+    BACKGROUND-REPEAT: no-repeat;
+    BACKGROUND-SIZE: cover;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header h1{
+    font-weight: 800;
+    color: white;
+    font-size: 58px;
+    text-align: center;
+    margin: 20px;
+}
+.header h4 {
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+.content .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content .s1{
+    
+    border-radius: 20;
+    background-color: #FFA62B;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.content .s2{
+    border-radius: 20px;
+    padding: 11px 30px;
+    margin: 5px;
+    border:white 1px solid;
+}
+.col_1{
+    background: #252B42;
+    padding: 100px 0 50px 0;
+}
+.col_1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.col_1 p{
+    color: white;
+    text-align: center;
+    padding : 15px 0 40px 0;
+}
+.col_1 .rowall{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.col_1 .rowall >div{
+    width: 328px;
+    background: white;
+    flex-basis: 24%;
+    margin: 15px 15px ;   
+}
+.col_1 .row1 {
+    position: relative;
+    padding: 30px ;
+}
+.col_1 .row2 {
+    position: relative;
+    padding: 20px ;
+}
+.col_1 .row3 {
+    position: relative;
+    padding: 20px ;
+}
+.col_1 .row4 {
+    position: relative;
+    padding: 20px ;
+}
+.col_1 .row5 {
+    position: relative;
+    padding: 20px ;
+}
+.col_1 .row6 {
+    position: relative;
+    padding: 20px ;
+}
+.rowall .icon1{
+    content: url('file:///C:/Users/Admin/Downloads/icn%20settings%20.icn-lg.svg');
+}
+.rowall .icon2{
+    content: url('file:///C:/Users/Admin/Downloads/icn%20settings%20.icn-lg%20(1).svg');
+}
+.rowall .icon3{
+    content: url('file:///C:/Users/Admin/Downloads/icn%20settings%20.icn-lg%20(2).svg');
+}
+.rowall .icon4{
+    content: url('file:///C:/Users/Admin/Downloads/icn%20settings%20.icn-lg%20(4).svg');
+}
+.rowall .icon5{
+    content: url('file:///C:/Users/Admin/Downloads/icn%20settings%20.icn-lg%20(5).svg');
+}
+.rowall .icon6{
+    content: url('file:///C:/Users/Admin/Downloads/icn%20settings%20.icn-lg%20(6).svg');
+}
+.rowall .text1{
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0 20px 15px;
+    
+}
+.rowall p{
+    text-align: left;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.col_2{
+    background: #252B42;
+    padding: 50px 0;
+    
+}
+.col_2 h1{
+    color: white;
+    text-align: center;
+}
+.col_2 p{
+    color: white;
+    text-align: center;
+    padding : 15px 0 40px 0;
+}
+
+.col_2 .video{
+    background-image: url('img/row.png');
+    height: 442px;
+    width: 877px;
+    margin: auto;
+}
+.col_3{
+    background: #252B42;
+    padding: 50px 0;
+}
+.col_3 h1{
+    color: white;
+    text-align: center;
+}
+.col_3 p{
+    color: white;
+    text-align: center;
+    padding : 15px 0 40px 0;
+}
+.col_3 .rowall p {
+    color: black;
+    text-align: left;
+}
+.col_3 .rowall{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col_3 .rowall >div{
+    background-color: white;
+    justify-content: center;
+    margin: 0 20px;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.col_3 .rowall .star{
+    content: url('file:///C:/Users/Admin/Downloads/stars.svg');
+}
+.col_3 .rowall .avt1{
+    content: url('file:///C:/Users/Admin/Downloads/Ellipse%202.svg');
+}
+.col_3 .rowall .avt2{
+    content: url('file:///C:/Users/Admin/Downloads/Ellipse%202%20(2).svg');
+}
+.col_3 .rowall .avt3{
+    content: url('file:///C:/Users/Admin/Downloads/Ellipse%202%20(1).svg');
+}
+.col_3 .rowall a {
+    color: #FFA62B;
+}
+.col_3 .profile {
+    display: flex;
+}
+.col_3 .t {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.col_4{
+    background: #252B42;
+    padding: 50px 0;
+    
+}
+.col_4 h1{
+    color: white;
+    text-align: center;
+}
+.col_4 p{
+    color: white;
+    text-align: center;
+    padding : 15px 0 40px 0;
+}
+.col_4 .rowall {
+    display: flex;
+    justify-content: center;
+}
+.col_4 .rowall >div{
+    max-width: 328px;
+    background-color: white;
+    margin: 5px 15px ;
+    padding-bottom: 20px;
+
+}
+.col_4 .avt1{
+    width: 100%;
+    align-items: center;
+}
+.avt1 img { width: 100%}
+
+.col_4 h3{
+    text-align: center;
+    margin: 5px;
+    margin-top: 20px;
+}
+.col_4 h2{
+    text-align: center;
+    font: normal;
+    margin: 5px;
+}
+
+.col_4 .rowall .logo{
+    display: flex;
+    justify-content: center;
+}
+.logo .fb {
+    content: url('file:///C:/Users/Admin/Downloads/Vector%20(1).svg');
+    margin: 0 5px;
+}
+.logo .ins{
+    content: url('file:///C:/Users/Admin/Downloads/Vector.svg');
+    margin: 0 5px;
+}
+.logo .twt{
+    content: url('file:///C:/Users/Admin/Downloads/Vector%20(2).svg');
+    margin: 0 5px;
+}
+.col_5 {
+    background-image: url('img/background1.png');
+    padding: 50px 0;
+    BACKGROUND-REPEAT: no-repeat;
+    BACKGROUND-SIZE: cover;
+}
+.col_5 .container1{
+    max-width: 598px;
+    margin: 50px 0;
+    justify-content: left;
+}
+.col_5 .container1 > div{
+    margin: 40px 0;
+}
+.col_5 .content{
+    color: white;
+    margin: 10px 0;
+}
+.col_5 .content h1{
+    margin: 10px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.col_5 .container1 .txt {
+    position: relative;   
+    display: flex; 
+    justify-content: space-between; 
+}
+.col_5 .txt input{   
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;   
+}
+.col_5 .container1 .button input{
+    color: white;
+    background-color: #FFA62B;
+    align-items: center;
+    padding: 15px 40px;
+    width: 218px;
+    border-radius: 5px;
+}
+.col_5 .cbo{
+    position: relative;
+    display: flex;   
+    justify-content: space-between;
+}
+select{
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+.col_6{
+    margin: 50px;
+    height: 62px;
+}
+.col_6 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col_6 .contactus{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background: #FFA62B;
+    border-radius: 5px;
+    padding: 23px 40px;
+    text-align: center;
+}
+.col_6 .content h3{
+    margin: 10px 0;
+    font-size: 24px;
+}
+.col_6 .content p{
+    font-size: 14px;
+    font-weight: 0;
+}
+
+.col_7 {
+    background: #252B42;
+    padding: 50px 0;
+    color: white;
+}
+.col_7 .chap1 {
+    font-size: 24px;  
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.col_7 .logo1 {
+    content: url('file:///C:/Users/Admin/Downloads/Vector%20(3).svg');
+}
+.col_7 .logo2 {
+    content: url('file:///C:/Users/Admin/Downloads/Vector%20(4).svg');
+}
+.col_7 .logo3 {
+    content: url('file:///C:/Users/Admin/Downloads/Vector%20(5).svg');
+}
+.col_7 .logo4 {
+    content: url('file:///C:/Users/Admin/Downloads/Vector%20(6).svg');
+}
+.col_7 .chap1 .contact{
+    display: flex;
+}
+.col_7 .chap1 .contact >div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+
+.col_7 .chap2 {
+    max-width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col_7 .chap2 .contact > div{
+    margin: 0 20px;
+}
+
+.col_7 .chap2  ul li{
+    margin: 10px 0;
+    list-style: none;
+    
+}
+.col_7 .chap2 .sub{
+    max-width: 321px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.col_7 .chap2 .sub >div{
+    padding: 10px 0;
+}
+.col_7 .chap2 .email{
+    display: flex;
+    border-radius: 20px;
+}
+
+.col_7 .chap2 .email .text input{
+    height: 58px;
+    width: 208px;
+    border-radius: 5px;
+}
+.col_7 .chap2 .email .enter input{
+    margin-top: 1px;
+    height: 63px;
+    width: 113px;
+    background-color: #FFA62B;
+    border-radius: 5px;
+}
